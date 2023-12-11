@@ -1,6 +1,4 @@
 # dist
-# Removed dist from initial .gitignore.
-# We can ignore it later, once we shift to workflow-based deployments.
 
 .solid
 .output
