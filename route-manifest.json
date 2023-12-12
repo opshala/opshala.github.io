@@ -1,0 +1,94 @@
+{
+  "/*404": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/opshala.github.io/assets/_...404_-47a2f5c7.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/_...404_-47a2f5c7.js"
+      },
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/index-1c443d3f.js"
+      },
+      {
+        "type": "style",
+        "href": "/opshala.github.io/assets/index-5bde2ad4.css"
+      }
+    ]
+  },
+  "/about": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/opshala.github.io/assets/about-04af13aa.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/about-04af13aa.js"
+      },
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/index-1c443d3f.js"
+      },
+      {
+        "type": "style",
+        "href": "/opshala.github.io/assets/index-5bde2ad4.css"
+      },
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/Counter-ee9a27e2.js"
+      }
+    ]
+  },
+  "/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/opshala.github.io/assets/index-76730412.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/index-76730412.js"
+      },
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/index-1c443d3f.js"
+      },
+      {
+        "type": "style",
+        "href": "/opshala.github.io/assets/index-5bde2ad4.css"
+      },
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/Counter-ee9a27e2.js"
+      }
+    ]
+  },
+  "entry-client": {
+    "type": "entry",
+    "assets": []
+  },
+  "index.html": {
+    "type": "entry",
+    "script": {
+      "type": "script",
+      "href": "/opshala.github.io/assets/index-1c443d3f.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/opshala.github.io/assets/index-1c443d3f.js"
+      },
+      {
+        "type": "style",
+        "href": "/opshala.github.io/assets/index-5bde2ad4.css"
+      }
+    ]
+  }
+}

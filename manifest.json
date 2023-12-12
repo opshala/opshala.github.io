@@ -1,0 +1,51 @@
+{
+  ".solid/index.css": {
+    "file": "assets/index-5bde2ad4.css",
+    "src": ".solid/index.css"
+  },
+  ".solid/index.html": {
+    "css": [
+      "assets/index-5bde2ad4.css"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx",
+      "src/routes/about.tsx",
+      "src/routes/index.tsx"
+    ],
+    "file": "assets/index-1c443d3f.js",
+    "isEntry": true,
+    "src": ".solid/index.html"
+  },
+  "_Counter-ee9a27e2.js": {
+    "file": "assets/Counter-ee9a27e2.js",
+    "imports": [
+      ".solid/index.html"
+    ]
+  },
+  "src/routes/[...404].tsx": {
+    "file": "assets/_...404_-47a2f5c7.js",
+    "imports": [
+      ".solid/index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].tsx"
+  },
+  "src/routes/about.tsx": {
+    "file": "assets/about-04af13aa.js",
+    "imports": [
+      ".solid/index.html",
+      "_Counter-ee9a27e2.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/about.tsx"
+  },
+  "src/routes/index.tsx": {
+    "file": "assets/index-76730412.js",
+    "imports": [
+      ".solid/index.html",
+      "_Counter-ee9a27e2.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  }
+}
