@@ -76,7 +76,7 @@ export default function Home() {
               </svg>
             </div>
             <div class="text-xl text-accent font-bold">Slash costs & efforts</div>
-            <div>Less external reliance, optimised choices of cloud resources &amp; OpShala's no-code UI means you save time &amp; money!</div>
+            <div>Less external reliance, well-engineered optimised choices &amp; non-technical interface means you save time &amp; money!</div>
           </div>
           <div class="flex flex-col justify-start items-center gap-1">
             <div class="w-full h-[100px] flex justify-center items-center">
@@ -103,7 +103,7 @@ export default function Home() {
               </svg>
             </div>
             <div class="text-xl text-accent font-bold">Security</div>
-            <div>Cloud deployments are designed to have strong security &amp; stay updated on latest versions.</div>
+            <div>Cloud deployments are engineered to follow security best-practices, preserving the security of data &amp; users.</div>
           </div>
           <div class="flex flex-col justify-start items-center gap-1">
             <div class="w-full h-[100px] flex justify-center items-center">
@@ -112,7 +112,7 @@ export default function Home() {
               </svg>
             </div>
             <div class="text-xl text-accent font-bold">Collaboration</div>
-            <div>Scale involves more people and requires collaboration. You can stay organised and collaborate with your team with OpShala!</div>
+            <div>Scale demands collaboration. Stay organised &amp; collaborate with your teams for efficient &amp; low-effort DevOps.</div>
           </div>
         </div>
       </section>
