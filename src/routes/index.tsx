@@ -12,7 +12,7 @@ export default function Home() {
         background: radial-gradient(circle at 60% 200%, rgba(0, 68, 204, 0.35), rgba(22, 100, 255, 0.3) 30%, rgba(255, 134, 127, 0.15) 70%, rgba(255, 167, 0, 0.12) 85%, rgba(255, 167, 0, 0.50) 140%);
       ">
         <section class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
-          <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-5 items-center justify-center">
+          <div class="grid grid-rows-1 md:grid-rows-1 md:grid-cols-1 gap-5 items-center justify-center">
             <div class="text-center">
               <div class="sm:px-[10%] md:px-[20%] mb-4 lg:mb-8">
                 <img alt="OpShala Logo" src={Logo} class="mx-auto max-w-[75%]" />
@@ -23,7 +23,7 @@ export default function Home() {
                 Desktop application to deploy/manage <a href="https://wordpress.org" target="_blank" class="text-secondary underline hover:no-underline">Wordpress</a> &amp; other web applications on popular cloud hosting services with <span class="text-logo">OpShala</span>'s simplified interface!
               </p>
             </div>
-            <div class="flex">
+            {/* <div class="flex">
               <div role="status" class="flex flex-col items-center justify-center w-full max-w-[90%] max-h-full bg-gray-300 rounded-lg mx-auto aspect-video shadow-2xl shadow-primary/20 border-4 border-logo/30">
                 <svg class="w-10 h-10 text-gray-200 dark:text-gray-600 animate-pulse" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
                   <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.98 2.98 0 0 0 .13 5H5Z" />
@@ -32,7 +32,7 @@ export default function Home() {
                 <div class="mt-4 text-gray-400 text-lg font-bold">Demo coming soon...</div>
                 <span class="sr-only">Loading...</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
