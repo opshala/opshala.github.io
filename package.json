@@ -17,6 +17,9 @@
   "dependencies": {
     "@solidjs/meta": "^0.29.1",
     "@solidjs/router": "^0.8.3",
+    "@tailwindcss/typography": "^0.5.10",
+    "flowbite": "^2.2.0",
+    "flowbite-typography": "^1.0.3",
     "solid-js": "^1.8.5",
     "solid-start": "^0.3.10"
   },

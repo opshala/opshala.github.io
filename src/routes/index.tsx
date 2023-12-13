@@ -1,31 +1,85 @@
 import { A } from "solid-start";
 import Counter from "~/components/Counter";
+import Logo from "../../assets/images/logo.svg";
+
+import 'flowbite';
 
 export default function Home() {
   return (
-    <main class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">
-        Hello world!
-      </h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{" "}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
-        >
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
-      </p>
-      <p class="my-4">
-        <span>Home</span>
-        {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{" "}
-      </p>
-    </main>
+    <>
+      <div class="w-full" style="
+        background: rgba(22, 100, 255, 1.0);
+        background: radial-gradient(circle at 60% 200%, rgba(0, 68, 204, 0.35), rgba(22, 100, 255, 0.3) 30%, rgba(255, 134, 127, 0.15) 70%, rgba(255, 167, 0, 0.12) 85%, rgba(255, 167, 0, 0.50) 140%);
+      ">
+        <section class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
+          <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-5 items-center justify-center">
+            <div class="text-center">
+              <div class="sm:px-[10%] md:px-[20%] mb-4 lg:mb-8">
+                <img alt="OpShala Logo" src={Logo} class="mx-auto max-w-[75%]" />
+              </div>
+              <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary lg:text-3xl xl:text-4xl">
+                No-code DevOps <small>for</small> Business Apps</h1>
+              <p class="text-lg font-normal lg:text-xl sm:px-3 lg:px-6">
+                Desktop application to deploy/manage <a href="https://wordpress.org" target="_blank" class="text-secondary underline hover:no-underline">Wordpress</a> &amp; other web applications on popular cloud hosting services with <span class="text-logo">OpShala</span>'s simplified interface!
+              </p>
+            </div>
+            <div class="flex">
+              <div role="status" class="flex flex-col items-center justify-center w-full max-w-[90%] max-h-full bg-gray-300 rounded-lg mx-auto aspect-video shadow-2xl shadow-primary/20 border-4 border-logo/30">
+                <svg class="w-10 h-10 text-gray-200 dark:text-gray-600 animate-pulse" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
+                  <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.98 2.98 0 0 0 .13 5H5Z" />
+                  <path d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM9 13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2Zm4 .382a1 1 0 0 1-1.447.894L10 13v-2l1.553-1.276a1 1 0 0 1 1.447.894v2.764Z" />
+                </svg>
+                <div class="mt-4 text-gray-400 text-lg font-bold">Demo coming soon...</div>
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="bg-secondary text-white">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative grid grid-cols-4 gap-6">
+          <div class="flex flex-col justify-start items-center gap-3">
+            <div class="w-[100px] h-[100px] flex justify-center items-center">
+              <svg class="w-[80px] h-[80px] text-accent" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 21">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m12.555 5.117 2.828 2.828M14 16v4m-2-2h4M3 6v4M1 8h4m11.01-6.339 2.828 2.829L3.99 19.339 1.161 16.51 16.01 1.661Z"/>
+                <path fill="currentColor" d="M16 13h-2v2h2v-2ZM10 2H8v2h2V2ZM7 4H5v2h2V4ZM4 2H2v2h2V2Zm15 8h-2v2h2v-2Zm0 5h-2v2h2v-2Z"/>
+              </svg>
+            </div>
+            <div class="text-xl text-accent">Simplified process</div>
+            <div>Astonishingly trivial for <b><u>any</u></b> user to launch web-based applications.</div>
+          </div>
+          <div class="flex flex-col justify-start items-center gap-3">
+            <div class="w-[100px] h-[100px] flex justify-center items-center">
+              <svg class="w-[80px] h-[80px] text-accent" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.5 8V4.5a3.5 3.5 0 1 0-7 0V8M8 12.167v3M2 8h12a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/>
+            </svg>
+            </div>
+            <div class="text-xl text-accent">Technical expertise? For what?</div>
+            <div>No technical knowhow required. Follow the steps to get an app up &amp; running in minutes!</div>
+          </div>
+          <div class="flex flex-col justify-start items-center gap-3">
+            <div class="w-[100px] h-[100px] flex justify-center items-center">
+              <svg class="w-[80px] h-[80px] text-accent" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1 1v14h16M4 10l3-4 4 4 5-5m0 0h-3.207M16 5v3.207"/>
+              </svg>
+            </div>
+            <div class="text-xl text-accent">Be more resourceful</div>
+            <div>Reduce your reliance on external resources, IT support &amp; consultants.</div>
+          </div>
+          <div class="flex flex-col justify-start items-center gap-3">
+            <div class="w-[100px] h-[100px] flex justify-center items-center">
+              <svg class="w-[48px] h-[48px] text-accent" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 11 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1.75 15.363a4.954 4.954 0 0 0 2.638 1.574c2.345.572 4.653-.434 5.155-2.247.502-1.813-1.313-3.79-3.657-4.364-2.344-.574-4.16-2.551-3.658-4.364.502-1.813 2.81-2.818 5.155-2.246A4.97 4.97 0 0 1 10 5.264M6 17.097v1.82m0-17.5v2.138"/>
+              </svg>
+              <svg class="w-[48px] h-[48px] text-accent" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linejoin="round" stroke-width="1" d="M10 6v4l3.276 3.276M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+              </svg>
+            </div>
+            <div class="text-xl text-accent">Slash costs & efforts</div>
+            <div>Less external reliance, optimised choices of cloud resources &amp; OpShala's no-code UI means you save time &amp; money!</div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
