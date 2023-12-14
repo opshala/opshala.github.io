@@ -22,6 +22,9 @@ export default function Home() {
               <p class="text-lg font-normal lg:text-xl sm:px-3 lg:px-6">
                 Desktop application to deploy/manage <a href="https://wordpress.org" target="_blank" class="text-secondary underline hover:no-underline">Wordpress</a> &amp; other web applications on popular cloud hosting services with <span class="text-logo">OpShala</span>'s simplified interface!
               </p>
+              <p class="mt-10">
+                <a data-formkit-toggle="b7140df158" href="https://opshala.ck.page/b7140df158" class="px-5 py-3 text-lg font-medium text-center text-white bg-secondary rounded-lg focus:ring-4 focus:outline-none focus:ring-accent/30">Subscribe to our newsletter</a>
+              </p>
             </div>
             {/* <div class="flex">
               <div role="status" class="flex flex-col items-center justify-center w-full max-w-[90%] max-h-full bg-gray-300 rounded-lg mx-auto aspect-video shadow-2xl shadow-primary/20 border-4 border-logo/30">
@@ -115,6 +118,8 @@ export default function Home() {
             <div>Scale demands collaboration. Stay organised &amp; collaborate with your teams for efficient &amp; low-effort DevOps.</div>
           </div>
         </div>
+      </section>
+      <section>
       </section>
     </>
   );
