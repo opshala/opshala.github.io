@@ -37,7 +37,6 @@ export default function Root() {
           </ErrorBoundary>
         </Suspense>
         <Scripts />
-        <script async data-uid="b7140df158" src="https://opshala.ck.page/b7140df158/index.js"></script>
       </Body>
     </Html>
   );

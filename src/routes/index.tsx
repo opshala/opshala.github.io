@@ -24,6 +24,7 @@ export default function Home() {
               </p>
               <p class="mt-10">
                 <a data-formkit-toggle="b7140df158" href="https://opshala.ck.page/b7140df158" class="px-5 py-3 text-lg font-medium text-center text-white bg-secondary rounded-lg focus:ring-4 focus:outline-none focus:ring-accent/30">Subscribe to our newsletter</a>
+                <script async data-uid="b7140df158" src="https://opshala.ck.page/b7140df158/index.js"></script>
               </p>
             </div>
             {/* <div class="flex">
