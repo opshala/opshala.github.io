@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <section class="bg-secondary text-white">
+      <section class="bg-logo text-white">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5 lg:grid-cols-4 xl:gap-6">
           <div class="flex flex-col justify-start items-center gap-1">
             <div class="w-full h-[100px] flex justify-center items-center">
