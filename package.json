@@ -15,6 +15,7 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@solid-primitives/script-loader": "^2.0.2",
     "@solidjs/meta": "^0.29.1",
     "@solidjs/router": "^0.8.3",
     "@tailwindcss/typography": "^0.5.10",

@@ -1,9 +1,11 @@
-import { createSignal } from "solid-js";
+import { createScriptLoader } from "@solid-primitives/script-loader";
 
 export default function NewsletterForm() {
+    createScriptLoader({
+        src: "https://f.convertkit.com/ckjs/ck.5.js"
+    });
     return (
         <>
-            <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
             <form
                 action="https://app.convertkit.com/forms/5966463/subscriptions"
                 class="seva-form formkit-form px-5"
