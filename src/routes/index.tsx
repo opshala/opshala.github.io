@@ -99,7 +99,7 @@ export default function Home() {
               </svg>
             </div>
             <div class="text-xl text-accent font-bold">Privacy</div>
-            <div>Privacy is at the center of our idea. Your private information is never sent to OpShala.</div>
+            <div>Privacy is a primary concern for OpShala. Your private information is never sent to OpShala.</div>
           </div>
           <div class="flex flex-col justify-start items-center gap-1">
             <div class="w-full h-[100px] flex justify-center items-center">
