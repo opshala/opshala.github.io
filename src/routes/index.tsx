@@ -3,6 +3,7 @@ import Counter from "~/components/Counter";
 import Logo from "../../assets/images/logo.svg";
 
 import 'flowbite';
+import NewsletterForm from "~/components/NewsletterForm";
 
 export default function Home() {
   return (
@@ -18,13 +19,13 @@ export default function Home() {
                 <img alt="OpShala Logo" src={Logo} class="mx-auto max-w-[75%]" />
               </div>
               <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary lg:text-3xl xl:text-4xl">
-                No-code DevOps <small>for</small> Business Apps</h1>
+                No-code DevOps <small>for</small> Business Apps
+              </h1>
               <p class="text-lg font-normal lg:text-xl sm:px-3 lg:px-6">
                 Desktop application to deploy/manage <a href="https://wordpress.org" target="_blank" class="text-secondary underline hover:no-underline">Wordpress</a> &amp; other web applications on popular cloud hosting services with <span class="text-logo">OpShala</span>'s simplified interface!
               </p>
               <p class="mt-10">
                 <a data-formkit-toggle="b7140df158" href="https://opshala.ck.page/b7140df158" class="px-5 py-3 text-lg font-medium text-center text-white bg-secondary rounded-lg focus:ring-4 focus:outline-none focus:ring-accent/30">Subscribe to our newsletter</a>
-                <script async data-uid="b7140df158" src="https://opshala.ck.page/b7140df158/index.js"></script>
               </p>
             </div>
             {/* <div class="flex">
@@ -120,7 +121,16 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
+        <div class="my-2 md:w-1/2 mx-auto">
+          <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary text-center lg:text-3xl xl:text-4xl">
+            Subscribe to our newsletter
+          </h1>
+          <p class="text-left p-5">
+            Subscribe to the <span class="text-logo">OpShala</span> newsletter to stay informed and learn with our latest industry insights, tutorials, and guides!
+          </p>
+          <NewsletterForm />
+        </div>
       </section>
     </>
   );
