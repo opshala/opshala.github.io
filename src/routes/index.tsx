@@ -1,11 +1,14 @@
-import { A } from "solid-start";
-import Counter from "~/components/Counter";
 import Logo from "../../assets/images/logo.svg";
 
 import 'flowbite';
 import NewsletterForm from "~/components/NewsletterForm";
 
 export default function Home() {
+  
+  let newsletterRef: HTMLDivElement;
+  const handleScrollToNewsletter = () => {
+    newsletterRef?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div class="w-full" style="
@@ -25,7 +28,7 @@ export default function Home() {
                 Desktop application to deploy/manage <a href="https://wordpress.org" target="_blank" class="text-secondary underline hover:no-underline">Wordpress</a> &amp; other web applications on popular cloud hosting services with <span class="text-logo">OpShala</span>'s simplified interface!
               </p>
               <p class="mt-10">
-                <a data-formkit-toggle="b7140df158" href="https://opshala.ck.page/b7140df158" class="px-5 py-3 text-lg font-medium text-center text-white bg-secondary rounded-lg focus:ring-4 focus:outline-none focus:ring-accent/30">Subscribe to our newsletter</a>
+                <button type="button" class="px-5 py-3 text-lg font-medium text-center text-white bg-secondary rounded-lg focus:ring-4 focus:outline-none focus:ring-accent/30" onClick={handleScrollToNewsletter}>Subscribe to our newsletter</button>
               </p>
             </div>
             {/* <div class="flex">
@@ -121,7 +124,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10" ref={e => (newsletterRef = e)}>
         <div class="my-2 md:w-1/2 mx-auto">
           <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary text-center lg:text-3xl xl:text-4xl">
             Subscribe to our newsletter
@@ -131,7 +134,7 @@ export default function Home() {
           </p>
           <NewsletterForm />
         </div>
-      </section>
+      </div>
     </>
   );
 }
