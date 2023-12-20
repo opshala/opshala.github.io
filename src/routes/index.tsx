@@ -124,6 +124,70 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
+        <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary text-center lg:text-3xl xl:text-4xl">
+          Frequently Asked Questions
+        </h1>
+        <div id="faqs" data-accordion="collapse">
+          <h2 id="faqs-heading-what-is-nocode-devops">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium border border-gray-300 rounded-t-xl focus:ring-4 focus:ring-gray-300 hover:bg-gray-100 gap-3" data-accordion-target="#faqs-body-what-is-nocode-devops" aria-expanded="true" aria-controls="faqs-body-what-is-nocode-devops">
+              <span>What is No-code DevOps?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="faqs-body-what-is-nocode-devops" class="hidden" aria-labelledby="faqs-heading-what-is-nocode-devops">
+            <div class="p-5 border border-b-0 border-gray-300">
+              <p class="mb-2">No-code DevOps is a simplified way to manage and deploy software on different cloud platforms without needing technical skills.</p>
+              <p>It combines 'DevOps', which involves streamlining software development and operations, with a 'no-code' approach, allowing users without technical expertise to handle tasks like deployment, testing, and monitoring using easy-to-use tools instead of writing complex code or interacting with technical systems of a web server.</p>
+            </div>
+          </div>
+          <h2 id="faqs-heading-how-is-it-simplified">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium border border-b-0 border-gray-300 focus:ring-4 focus:ring-gray-300 hover:bg-gray-100 gap-3" data-accordion-target="#faqs-body-how-is-it-simplified" aria-expanded="false" aria-controls="faqs-body-how-is-it-simplified">
+              <span>How does OpShala simplify cloud application deployment?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="faqs-body-how-is-it-simplified" class="hidden" aria-labelledby="faqs-heading-how-is-it-simplified">
+            <div class="p-5 border border-b-0 border-gray-300">
+              <p class="mb-2">OpShala facilitates easy management and deployment of software across multiple cloud providers. Our pre-defined automated workflows and streamlined processes are designed to be used by anyone.</p>
+              <p>Our system does not expect you to know any technical details, making the entire experience user-friendly and efficient.</p>
+            </div>
+          </div>
+          <h2 id="faqs-heading-applications-supported">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium border border-b-0 border-gray-300 focus:ring-4 focus:ring-gray-300 hover:bg-gray-100 gap-3" data-accordion-target="#faqs-body-applications-supported" aria-expanded="false" aria-controls="faqs-body-applications-supported">
+              <span>Which applications does OpShala support?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="faqs-body-applications-supported" class="hidden" aria-labelledby="faqs-heading-applications-supported">
+            <div class="p-5 border border-b-0 border-gray-300">
+              <p class="mb-2">At present, we are working on supporting Wordpress. Other softwares in consideration for the future are Plasmic, ERPNext and many more.</p>
+              <p>If there are any useful business web applications you would like OpShala to support, we would love to hear from you. You can email us on team@opshala.com.</p>
+            </div>
+          </div>
+          <h2 id="faqs-heading-applications-supported-own">
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium border border-gray-300 focus:ring-4 focus:ring-gray-300 hover:bg-gray-100 gap-3" data-accordion-target="#faqs-body-applications-supported-own" aria-expanded="false" aria-controls="faqs-body-applications-supported-own">
+              <span>Can it help me deploy my own softwares & applications as well?</span>
+              <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5 5 1 1 5"/>
+              </svg>
+            </button>
+          </h2>
+          <div id="faqs-body-applications-supported-own" class="hidden" aria-labelledby="faqs-heading-applications-supported-own">
+            <div class="p-5 border border-t-0 rounded-b-xl border-gray-300">
+              <p class="mb-2">At OpShala, we are currently focused on introducing and strengthening support for Wordpress and it's diverse ecosystem.</p>
+              <p>In the near future, we do plan to introduce support for you to be able to deploy your own applications too.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10" ref={e => (newsletterRef = e)}>
         <div class="my-2 md:w-1/2 mx-auto">
           <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary text-center lg:text-3xl xl:text-4xl">
