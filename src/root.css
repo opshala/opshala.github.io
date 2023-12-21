@@ -11,3 +11,6 @@
 #faqs h2:nth-last-child(2) button[aria-expanded=false] {
     @apply rounded-b-xl;
 }
+#faqs [id^=faqs-body-] > div > p:not(:last-child) {
+    @apply mb-2;
+}

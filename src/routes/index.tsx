@@ -142,9 +142,8 @@ export default function Home() {
                 </button>
               </h2>
               <div id={`faqs-body-${faq.id}`} class="hidden" aria-labelledby={`faqs-heading-${faq.id}`}>
-                <div class={`p-5 border border-gray-300 ${i()==faqs.length-1?"rounded-b-xl":"border-b-0"}`}>
-                  <p class="mb-2">No-code DevOps is a simplified way to manage and deploy software on different cloud platforms without needing technical skills.</p>
-                  <p>It combines 'DevOps', which involves streamlining software development and operations, with a 'no-code' approach, allowing users without technical expertise to handle tasks like deployment, testing, and monitoring using easy-to-use tools instead of writing complex code or interacting with technical systems of a web server.</p>
+                <div class={`p-5 border border-gray-300 ${i() == faqs.length - 1 ? "rounded-b-xl" : "border-b-0"}`}>
+                  {faq.answer}
                 </div>
               </div>
             </>
