@@ -33,10 +33,13 @@ faqs.push({
   answer: (
     <>
       <p>
-        OpShala guides a business user in creating accounts with various cloud
-        service providers. Then it sets up all the needed infrastructure and
-        software on the cloud as per the needs of the business. The desktop is
-        like an IT admin for the business.
+        The OpShala desktop application guides a business user in creating
+        accounts with various cloud service providers (GitHub or GitLab, Digital
+        Ocean, etc.). OpShala creates and uses a Git repository to record the
+        software needs of the business. Cloud services are controlled using
+        Terraform and Ansible (stored in the Git repostiory). All the deployment
+        is run from either GitHub Actions or GitLab Pipelines. The desktop
+        application is like an IT admin for the business.
       </p>
       <p>
         Our system does not expect you to know any technical details, making the
@@ -152,15 +155,12 @@ faqs.push({
         data.
       </p>
       <p>
-        OpShala ensures security during deployments by utilizing tailor-made
-        workflows for specific software needs. These workflows are designed to
-        implement secure deployment practices without the need for technical
-        expertise.
-      </p>
-      <p>
-        Additionally, our server setup workflows cover operating system and
-        network security, providing a secure foundation for applications
-        deployed using OpShala.
+        OpShala uses existing pracitces to harden the Linux servers that it
+        manages. We initally plan to support Debian Linux and add support for
+        Rocky Linux very soon. OpShala uses Ansible to manage the servers. All
+        CI/CD runs on Git hosting platforms like GitHub or GitLab. OpShala uses
+        secrets storage solutions like that available with GitHub Actions or
+        Hashicorp Vault (for GitLab Pipelines).
       </p>
     </>
   ),
@@ -213,7 +213,8 @@ faqs.push({
     <>
       <p>
         OpShala prioritizes privacy and control, which is why we've opted for a
-        desktop software solution over a SaaS-based platform.
+        desktop software solution over a SaaS-based platform. We want to help
+        businesses self-host their business applications.
       </p>
       <p>
         Our focus on a desktop application offers users greater privacy and data
@@ -221,10 +222,6 @@ faqs.push({
         their local environment. This approach ensures sensitive data remains
         within the user's control, eliminating potential privacy concerns often
         associated with SaaS applications.
-      </p>
-      <p>
-        We believe in empowering users with a privacy-first, secure, and
-        user-friendly experience through our desktop software.
       </p>
     </>
   ),
