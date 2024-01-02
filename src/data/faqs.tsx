@@ -115,7 +115,7 @@ faqs.push({
       <p>
         The OpShala desktop app is designed for users with no technical
         expertise. It is a GUI application where users can select the software
-        they way, register for the cloud services they want to use, and OpShala
+        they want, register for the cloud services they want to use and OpShala
         does the rest.
       </p>
     </>
@@ -174,9 +174,9 @@ faqs.push({
       <p>
         Currently, our platform primarily focuses on facilitating single server
         deployments, which can be scaled by upgrading the server resources. We
-        want to support running multiple software on the single server,
+        want to support running multiple softwares on a single server,
         including the core business software, databases, etc. If a business
-        wants to scale their platform, then OpShala will allow them to using
+        wants to scale their platform, then OpShala will allow them to do so using
         larger instances.
       </p>
       <p>
