@@ -8,3 +8,9 @@
 .formkit-alert.formkit-alert-success {
     @apply p-4 mb-4 text-sm text-green-600 rounded-lg bg-green-50 font-bold;
 }
+#faqs h2:nth-last-child(2) button[aria-expanded=false] {
+    @apply rounded-b-xl;
+}
+#faqs [id^=faqs-body-] > div > p:not(:last-child) {
+    @apply mb-2;
+}
