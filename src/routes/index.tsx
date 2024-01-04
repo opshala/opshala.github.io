@@ -1,9 +1,8 @@
 import Logo from "../../assets/images/logo.svg";
 
 import 'flowbite';
-import { For } from "solid-js";
 import NewsletterForm from "~/components/NewsletterForm";
-import faqs from "~/data/faqs";
+import Faqs from "~/components/Faqs";
 
 export default function Home() {
   
@@ -130,26 +129,7 @@ export default function Home() {
         <h1 class="mb-4 text-xl font-bold tracking-tight leading-none text-secondary text-center lg:text-3xl xl:text-4xl">
           Frequently Asked Questions
         </h1>
-        <div id="faqs" data-accordion="collapse">
-          <For each={faqs}>{(faq, i) =>
-            <>
-              <h2 id={`faqs-heading-${faq.id}`}>
-                <button type="button" class={`flex items-center justify-between w-full p-5 font-medium border border-gray-300 focus:ring-4 focus:ring-gray-300 hover:bg-gray-100 gap-3 ${i()==0?"rounded-t-xl":""}`} data-accordion-target={`#faqs-body-${faq.id}`} aria-expanded="false" aria-controls={`faqs-body-${faq.id}`}>
-                  <span class="text-left">{faq.question}</span>
-                  <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 5 5 1 1 5"/>
-                  </svg>
-                </button>
-              </h2>
-              <div id={`faqs-body-${faq.id}`} class="hidden" aria-labelledby={`faqs-heading-${faq.id}`}>
-                <div class={`p-5 border border-gray-300 ${i() == faqs.length - 1 ? "rounded-b-xl" : "border-b-0"}`}>
-                  {faq.answer}
-                </div>
-              </div>
-            </>
-          }</For>
-        </div>
-
+        <Faqs />
       </div>
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10" ref={e => (newsletterRef = e)}>
         <div class="my-2 md:w-1/2 mx-auto">
