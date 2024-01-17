@@ -32,9 +32,6 @@ jobs:
           npm i -g pnpm
           pnpm i --frozen-lockfile
 
-      - name: Prepare the 404 page
-        run: cp "src/routes/[...404].tsx" src/routes/404.tsx
-
       - name: Build
         run: pnpm build
       
