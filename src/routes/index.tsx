@@ -142,6 +142,13 @@ export default function Home() {
           <NewsletterForm />
         </div>
       </div>
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 z-10">
+        <div class="my-2 md:w-1/2 mx-auto">
+          <p class="text-left p-5">
+            <A href="/about">About</A>
+          </p>
+        </div>
+      </div>
     </>
   );
 }
